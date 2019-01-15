@@ -285,11 +285,25 @@ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-part
 sudo eopkg it idea*.eopkg;sudo rm idea*.eopkg
 ```
 
+### Goland
+
+```bash
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/goland/pspec.xml
+sudo eopkg it goland*.eopkg;sudo rm goland*.eopkg
+```
+
 ### PHPStorm
 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/phpstorm/pspec.xml
 sudo eopkg it phpstorm*.eopkg;sudo rm phpstorm*.eopkg
+```
+
+### PyCharm Community Edition
+
+```bash
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/pycharm-ce/pspec.xml
+sudo eopkg it pycharm-ce*.eopkg;sudo rm pycharm-ce*.eopkg
 ```
 
 ### Pycharm
