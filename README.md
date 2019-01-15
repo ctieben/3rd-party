@@ -12,12 +12,14 @@ This repo contains the build files required to create packages that cannot be re
 
 Even with the support of Snaps not all of this apllication will be avalible on Solus.
 
+Even with the support of Snaps not all of this apllication will be avalible on Solus.
+
 For more information about 3rd party applications in Solus, visit our Help Center page at https://getsol.us/articles/software/third-party/en/.
+
 
 
 DO NOT PUSH BINARY PACKAGES! The git history has been reset because it ballooned
 to nearly 300MB in size. :)
-
 
 
 
@@ -367,14 +369,21 @@ sudo eopkg it google-earth*.eopkg;sudo rm google-earth*.eopkg
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> acb70e5 (Mark snaped packages and list other applications on snap)
 ## To be done
 * GanttProject
 * FreeOffice
 * SoftMaker Office Standard / Professional
 
 
+<<<<<<< HEAD
 # Apps by [Snap](https://snapcraft.io/store)
+=======
+# Apps by [https://snapcraft.io/store](Snap)
+>>>>>>> acb70e5 (Mark snaped packages and list other applications on snap)
 * Skype
 * Spotify
 * Slack
