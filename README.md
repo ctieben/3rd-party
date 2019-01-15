@@ -3,14 +3,21 @@ Third Party Apps (DEPRECATED)
 
 **Note**: This repo will not accept NEW packages as we are replacing the majority of them in Solus with Snaps. After we have Snaps integrated in the Software Center we will begin forceful deprecation of this repository.
 
+**Note**: The Solus ThirdParty repo will not accept NEW packages as they are replacing the
+majority of them in Solus with Snaps. After the Ubuntu Rally (NYC) at the
+end of September 2017, they will have Snaps integrated in the Software Center,
+and will begin forceful deprecation of this repository.
+
 This repo contains the build files required to create packages that cannot be redistributed, whether for licensing restrictions or otherwise.
+
+Even with the support of Snaps not all of this apllication will be avalible on Solus.
 
 For more information about 3rd party applications in Solus, visit our Help Center page at https://getsol.us/articles/software/third-party/en/.
 
 
-
-DO NOT PUSH BINARY PACKAGES. The git history has been reset because it ballooned
+DO NOT PUSH BINARY PACKAGES! The git history has been reset because it ballooned
 to nearly 300MB in size. :)
+
 
 
 
@@ -33,21 +40,21 @@ This list is based of
 ## Browsers
 
 ### Google Chrome
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/network/web/browser/google-chrome-stable/pspec.xml
 sudo eopkg it google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
 ```
 
 ### Google Chrome (Beta)
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/network/web/browser/google-chrome-beta/pspec.xml
 sudo eopkg it google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
 ```
 
 ### Google Chrome (Dev/Unstable)
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/network/web/browser/google-chrome-unstable/pspec.xml
 sudo eopkg it google-chrome-*.eopkg;sudo rm google-chrome-*.eopkg
@@ -70,14 +77,14 @@ sudo eopkg it google-talkplugin*.eopkg;sudo rm google-talkplugin*.eopkg
 ```
 
 ### Skype for Linux
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/network/im/skype/pspec.xml
 sudo eopkg it skype*.eopkg;sudo rm *.eopkg
 ```
 
 ### Slack
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/network/im/slack-desktop/pspec.xml
 sudo eopkg it slack-desktop*.eopkg;sudo rm slack-desktop*.eopkg
@@ -131,7 +138,7 @@ sudo eopkg it pixeluvo*.eopkg;sudo rm pixeluvo*.eopkg
 ```
 
 ### Plex Media Server
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/multimedia/video/plexmediaserver/pspec.xml
 sudo eopkg it plexmediaserver-*.eopkg;sudo rm plexmediaserver-*.eopkg
@@ -153,7 +160,7 @@ sudo eopkg it sunvox*.eopkg;sudo rm sunvox*.eopkg
 ```
 
 ### Spotify
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/multimedia/music/spotify/pspec.xml
 sudo eopkg it spotify*.eopkg;sudo rm spotify*.eopkg
@@ -214,7 +221,7 @@ sudo eopkg it mscorefonts*.eopkg;sudo rm mscorefonts*.eopkg
 ```
 
 ### Moneydance
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/office/moneydance/pspec.xml
 sudo eopkg it moneydance*.eopkg;sudo rm moneydance*.eopkg
@@ -235,7 +242,7 @@ sudo eopkg it scrivener*.eopkg;sudo rm scrivener*.eopkg
 ```
 
 ### WPS Office
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/office/wps-office/pspec.xml
 sudo eopkg it wps-office*.eopkg;sudo rm wps-office*.eopkg
@@ -244,7 +251,7 @@ sudo eopkg it wps-office*.eopkg;sudo rm wps-office*.eopkg
 ### Programming
 
 ### Android Studio
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/android-studio/pspec.xml
 sudo eopkg it android-studio*.eopkg;sudo rm android-studio*.eopkg
@@ -258,84 +265,84 @@ sudo eopkg it android-tools*.eopkg;sudo rm android-tools*.eopkg
 ```
 
 ### CLion
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/clion/pspec.xml
 sudo eopkg it clion*.eopkg;sudo rm clion*.eopkg
 ```
 
 ### Datagrip
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/datagrip/pspec.xml
 sudo eopkg it datagrip*.eopkg;sudo rm datagrip*.eopkg
 ```
 
-### Git Kraken
-
+### GitKraken
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/gitkraken/pspec.xml
 sudo eopkg it gitkraken*.eopkg;sudo rm gitkraken*.eopkg
 ```
 
 ### IDEA
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/idea/pspec.xml
 sudo eopkg it idea*.eopkg;sudo rm idea*.eopkg
 ```
 
-### Goland
-
+### GoLand
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/goland/pspec.xml
 sudo eopkg it goland*.eopkg;sudo rm goland*.eopkg
 ```
 
 ### PHPStorm
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/phpstorm/pspec.xml
 sudo eopkg it phpstorm*.eopkg;sudo rm phpstorm*.eopkg
 ```
 
 ### PyCharm Community Edition
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/pycharm-ce/pspec.xml
 sudo eopkg it pycharm-ce*.eopkg;sudo rm pycharm-ce*.eopkg
 ```
 
 ### Pycharm
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/pycharm/pspec.xml
 sudo eopkg it pycharm*.eopkg;sudo rm pycharm*.eopkg
 ```
 
 ### Rider
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/rider/pspec.xml
 sudo eopkg it rider*.eopkg;sudo rm rider*.eopkg
 ```
 
 ### RubyMine
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/rubymine/pspec.xml
 sudo eopkg it rubymine*.eopkg;sudo rm rubymine*.eopkg
 ```
 
 ### Sublime Text 3
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/sublime-text-3/pspec.xml
 sudo eopkg it sublime*.eopkg;sudo rm sublime*.eopkg
 ```
 
 ### WebStorm
-
+**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/programming/webstorm/pspec.xml
 sudo eopkg it webstorm*.eopkg;sudo rm webstorm*.eopkg
@@ -358,4 +365,31 @@ sudo eopkg it enpass*.eopkg;sudo rm enpass*.eopkg
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/network/web/google-earth/pspec.xml
 sudo eopkg it google-earth*.eopkg;sudo rm google-earth*.eopkg
 ```
+
+<<<<<<< HEAD
+=======
+## To be done
+* GanttProject
+* FreeOffice
+* SoftMaker Office Standard / Professional
+
+
+# Apps by [Snap](https://snapcraft.io/store)
+* Skype
+* Spotify
+* Slack
+* Telegram
+* Signal Desktop
+* Discord
+* Zenkit
+* Bitwarden
+* OnlyOffice
+* Nextcloud
+* Atom
+* Visual Studio Code
+* Jetbrains Software
+* NetBeans
+* GitKraken
+
+
 
