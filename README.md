@@ -251,7 +251,6 @@ sudo eopkg it wps-office*.eopkg;sudo rm wps-office*.eopkg
 ```
 
 ### Softmaker Office
-**SNAPED** 
 ```bash
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/ctieben/3rd-party/master/office/softmaker-office/pspec.xml
 sudo eopkg it softmaker-office*.eopkg;sudo rm softmaker-office*.eopkg

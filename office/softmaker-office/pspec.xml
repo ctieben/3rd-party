@@ -11,7 +11,7 @@
         <Summary>Softmaker Office</Summary>
         <Description>Softmaker Office</Description>
         <License>prop</License>
-        <Archive sha1sum="9974078cde40c26419998294a0a754bc102afe37" type="binary">https://www.softmaker.net/down/softmaker-office-2018_942-01_amd64.deb</Archive>
+        <Archive sha1sum="f37e03a7e930e92e639b4c2138f4db010792baf6" type="binary">https://www.softmaker.net/down/softmaker-office-2018_942-01_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
