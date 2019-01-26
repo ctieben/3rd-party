@@ -31,7 +31,7 @@
     <History>
         <Update release="1">
             <Date>01-25-2019</Date>
-            <Version>2018_942-01</Version>
+            <Version>2018.942.01</Version>
             <Comment>Add softmaker-office to repositories</Comment>
             <Name>Christoph Tieben</Name>
             <Email>ctieben@gmx.de</Email>
