@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>softmaker-office</Name>
+        <Homepage>https://www.softmaker.de/softmaker-office</Homepage>
+        <Packager>
+            <Name>Christoph Tieben</Name>
+            <Email>ctieben@gmx.de</Email>
+        </Packager>
+        <Summary>Softmaker Office</Summary>
+        <Description>Softmaker Office</Description>
+        <License>prop</License>
+        <Archive sha1sum="9974078cde40c26419998294a0a754bc102afe37" type="binary">https://www.softmaker.net/down/softmaker-office-2018_942-01_amd64.deb</Archive>
+
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>softmaker-office</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libpng12</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>01-25-2019</Date>
+            <Version>2018_942-01</Version>
+            <Comment>Add softmaker-office to repositories</Comment>
+            <Name>Christoph Tieben</Name>
+            <Email>ctieben@gmx.de</Email>
+        </Update>
+    </History>
+</PISI>
