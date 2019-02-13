@@ -382,7 +382,6 @@ sudo eopkg it google-earth*.eopkg;sudo rm google-earth*.eopkg
 ## To be done
 * GanttProject
 * FreeOffice
-* SoftMaker Office Standard / Professional
 
 
 <<<<<<< HEAD
@@ -392,6 +391,8 @@ sudo eopkg it google-earth*.eopkg;sudo rm google-earth*.eopkg
 >>>>>>> acb70e5 (Mark snaped packages and list other applications on snap)
 * Skype
 * Spotify
+* Blender (latest Version)
+* LibreOffice (latest Version)
 * Slack
 * Telegram
 * Signal Desktop
