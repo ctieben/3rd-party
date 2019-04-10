@@ -11,7 +11,7 @@ Version = get.srcVERSION()
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf softmaker-office-2018_942-01_amd64.deb")
+    shelltools.system("ar xf softmaker-office-2018_960-01_amd64.deb")
     shelltools.system("tar xf data.tar.xz")
 
 def install():

@@ -11,7 +11,7 @@
         <Summary>Softmaker Office</Summary>
         <Description>Softmaker Office</Description>
         <License>prop</License>
-        <Archive sha1sum="f37e03a7e930e92e639b4c2138f4db010792baf6" type="binary">https://www.softmaker.net/down/softmaker-office-2018_942-01_amd64.deb</Archive>
+        <Archive sha1sum="a63b9fe9541b63d660675366983ff4bbf2947db5" type="binary">https://www.softmaker.net/down/softmaker-office-2018_960-01_amd64.deb</Archive>
 
         <BuildDependencies>
             <Dependency>binutils</Dependency>
@@ -29,6 +29,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>04-10-2019</Date>
+            <Version>2018.960.01</Version>
+            <Comment>30 year anniversary edition</Comment>
+            <Name>Christoph Tieben</Name>
+            <Email>ctieben@gmx.de</Email>
+        </Update>
         <Update release="1">
             <Date>01-25-2019</Date>
             <Version>2018.942.01</Version>
